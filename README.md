@@ -12,3 +12,7 @@
 <a href="https://asciinema.org/a/XBfJClkc6vQ2qQ2EETLNbZFl8" target="_blank">
   <img src="https://asciinema.org/a/XBfJClkc6vQ2qQ2EETLNbZFl8.svg" />
 </a>
+<p>GCD game</p>
+<a href="https://asciinema.org/a/kNmzTyQx55TnrkD38GIj8yRaV" target="_blank">
+  <img src="https://asciinema.org/a/kNmzTyQx55TnrkD38GIj8yRaV.svg" />
+</a>

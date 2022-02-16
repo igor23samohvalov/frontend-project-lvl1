@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import main from '../src/index.js';
 
-const correctAnswer = ({ num1, num2, expr }) => {
+const correctAnswer = ([num1, expr, num2]) => {
   let result;
 
   switch (expr) {
@@ -23,13 +23,13 @@ let correctAnswers = 0;
 const name = main.greetUser('What is the result of the expression?');
 
 while (correctAnswers < 3) {
-  const curValues = {
-    num1: main.randomNumber(10),
-    expr: main.randomExpression(),
-    num2: main.randomNumber(10),
-  };
+  const curValues = [
+    main.randomNumber(10),
+    main.randomExpression(),
+    main.randomNumber(10),
+  ];
 
-  console.log(`Question: ${curValues.num1} ${curValues.expr} ${curValues.num2}`);
+  console.log(`Question: ${curValues.join(' ')}`);
   const answer = main.getAnswer(correctAnswer(curValues));
 
   if (answer === true) {

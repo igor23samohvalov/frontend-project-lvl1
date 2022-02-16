@@ -1,19 +1,27 @@
 #!/usr/bin/env node
 import main from '../src/index.js';
 
-const correctAnswer = (...num) => {
-  if (num % 2 === 0) {
-    return 'yes';
+const correctAnswer = (nums) => {
+  let [smallerNum, biggerNum] = nums.sort((a, b) => a - b);
+
+  while (biggerNum % smallerNum !== 0) {
+    const currentSmallNum = biggerNum % smallerNum;
+
+    biggerNum = smallerNum;
+    smallerNum = currentSmallNum;
   }
 
-  return 'no';
+  return smallerNum;
 };
 
 let correctAnswers = 0;
-const name = main.greetUser('Answer "yes" if the number is even, otherwise answer "no".');
+const name = main.greetUser('Find the greatest common divisor of given numbers.');
 
 while (correctAnswers < 3) {
-  const curValues = [main.randomNumber(100)];
+  const curValues = [
+    main.randomNumber(100),
+    main.randomNumber(100),
+  ];
 
   console.log(`Question: ${curValues.join(' ')}`);
   const answer = main.getAnswer(correctAnswer(curValues));
