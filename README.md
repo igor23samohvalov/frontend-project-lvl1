@@ -16,3 +16,7 @@
 <a href="https://asciinema.org/a/kNmzTyQx55TnrkD38GIj8yRaV" target="_blank">
   <img src="https://asciinema.org/a/kNmzTyQx55TnrkD38GIj8yRaV.svg" />
 </a>
+<p>Arithmetic Progression game</p>
+<a href="https://asciinema.org/a/DVJovyX90IFosTYSKjzLCbJ3u" target="_blank">
+  <img src="https://asciinema.org/a/DVJovyX90IFosTYSKjzLCbJ3u.svg" />
+</a>
