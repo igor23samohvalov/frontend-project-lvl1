@@ -8,9 +8,9 @@
 <p>Set of simple games. Entire interaction is done through the command line. To start a game see the descriptions below on each one.</p>
 <p>Quick start</p>
 <i>git clone git@github.com:igor23samohvalov/frontend-project-lvl1.git</i>
-<i>cd frontend-project-lvl1</i>
-<i>make install</i>
-<i>make <game name></i>
+<i> - cd frontend-project-lvl1</i><br>
+<i> - make install</i><br>
+<i> - make "game name"</i><br>
 <a href="https://asciinema.org/a/VjMIGcTfjnHD5rdlDhqBZzUKQ">
   <img src="https://asciinema.org/a/VjMIGcTfjnHD5rdlDhqBZzUKQ.svg" />
 </a>
@@ -23,8 +23,8 @@
   <img src="https://asciinema.org/a/iqARhfkF25kFniOLpcChNSlbD.svg" />
 </a>
 <p>GCD game</p>
-<a href="https://asciinema.org/a/rn70ItWINp0Cf6RARLfroiYY6" target="_blank">
-  <img src="https://asciinema.org/a/rn70ItWINp0Cf6RARLfroiYY6.svg" />
+<a href="https://asciinema.org/a/HSVikFLDj9Zz9hxvN0l73RYgv" target="_blank">
+  <img src="https://asciinema.org/a/HSVikFLDj9Zz9hxvN0l73RYgv.svg" />
 </a>
 <p>Arithmetic Progression game</p>
 <a href="https://asciinema.org/a/vQfhHXESs7I6EIIRQJy2ScOwh" target="_blank">
