@@ -7,7 +7,7 @@
 <h1>Brain Games</h1>
 <p>Set of simple games. Entire interaction is done through the command line. To start a game see the descriptions below on each one.</p>
 <p>Quick start</p>
-<i>git clone git@github.com:igor23samohvalov/frontend-project-lvl1.git</i>
+<i>git clone git@github.com:igor23samohvalov/frontend-project-lvl1.git</i><br>
 <i> - cd frontend-project-lvl1</i><br>
 <i> - make install</i><br>
 <i> - make "game name"</i><br>
@@ -23,8 +23,8 @@
   <img src="https://asciinema.org/a/iqARhfkF25kFniOLpcChNSlbD.svg" />
 </a>
 <p>GCD game</p>
-<a href="https://asciinema.org/a/HSVikFLDj9Zz9hxvN0l73RYgv" target="_blank">
-  <img src="https://asciinema.org/a/HSVikFLDj9Zz9hxvN0l73RYgv.svg" />
+<a href="https://asciinema.org/a/eft2slxCXGS5tpd8iSHj4YVkO" target="_blank">
+  <img src="https://asciinema.org/a/eft2slxCXGS5tpd8iSHj4YVkO.svg" />
 </a>
 <p>Arithmetic Progression game</p>
 <a href="https://asciinema.org/a/vQfhHXESs7I6EIIRQJy2ScOwh" target="_blank">
