@@ -20,3 +20,7 @@
 <a href="https://asciinema.org/a/DVJovyX90IFosTYSKjzLCbJ3u" target="_blank">
   <img src="https://asciinema.org/a/DVJovyX90IFosTYSKjzLCbJ3u.svg" />
 </a>
+<p>Prime numbers game</p>
+<a href="https://asciinema.org/a/zuAbkWLXxtq8qvcGCRx6AxTcd" target="_blank">
+  <img src="https://asciinema.org/a/zuAbkWLXxtq8qvcGCRx6AxTcd.svg" />
+</a>
