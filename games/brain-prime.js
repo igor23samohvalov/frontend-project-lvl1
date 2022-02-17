@@ -17,5 +17,3 @@ const correctAnswer = (num) => {
 const name = main.greetUser('Answer "yes" if given number is prime. Otherwise answer "no".');
 
 main.playGame('brain-prime', correctAnswer, name);
-
-main.endGame(name);

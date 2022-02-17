@@ -16,5 +16,3 @@ const correctAnswer = (array) => {
 const name = main.greetUser('What number is missing in the progression?');
 
 main.playGame('brain-progression', correctAnswer, name);
-
-main.endGame(name);

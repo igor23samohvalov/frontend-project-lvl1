@@ -80,19 +80,20 @@ function playGame(gameName, correctAnswer, name) {
       correctAnswers += 1;
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer(currentValues)}`);
-      console.log(`Let's try again, ${name}!`);
+      correctAnswers = 10;
     }
   }
-}
 
-function endGame(name) {
-  console.log(`Congratulations, ${name}!`);
+  if (correctAnswers === 10) {
+    console.log(`Let's try again, ${name}!`);
+  } else {
+    console.log(`Congratulations, ${name}!`);
+  }
 }
 
 export default {
   randomNumber,
   greetUser,
-  endGame,
   getAnswer,
   randomExpression,
   randomArray,

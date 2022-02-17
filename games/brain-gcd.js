@@ -17,5 +17,3 @@ const correctAnswer = (nums) => {
 const name = main.greetUser('Find the greatest common divisor of given numbers.');
 
 main.playGame('brain-gcd', correctAnswer, name);
-
-main.endGame(name);

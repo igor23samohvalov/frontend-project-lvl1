@@ -22,5 +22,3 @@ const correctAnswer = ([num1, expr, num2]) => {
 const name = main.greetUser('What is the result of the expression?');
 
 main.playGame('brain-calc', correctAnswer, name);
-
-main.endGame(name);

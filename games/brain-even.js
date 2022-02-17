@@ -12,5 +12,3 @@ const correctAnswer = (...num) => {
 const name = main.greetUser('Answer "yes" if the number is even, otherwise answer "no".');
 
 main.playGame('brain-even', correctAnswer, name);
-
-main.endGame(name);
