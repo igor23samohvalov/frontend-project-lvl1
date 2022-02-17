@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 import main from '../src/index.js';
 
-const correctAnswer = (...num) => {
-  if (num % 2 === 0) {
+const correctAnswer = (num) => {
+  const [number] = num;
+
+  if (number % 2 === 0) {
     return 'yes';
   }
 
