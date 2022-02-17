@@ -7,7 +7,7 @@
 <h1>Brain Games</h1>
 <p>Set of simple games. Entire interaction is done through the command line. To start a game see the descriptions below on each one.</p>
 <p>Quick start</p>
-<i>git clone git@github.com:igor23samohvalov/frontend-project-lvl1.git</i><br>
+<i> - git clone git@github.com:igor23samohvalov/frontend-project-lvl1.git</i><br>
 <i> - cd frontend-project-lvl1</i><br>
 <i> - make install</i><br>
 <i> - make "game name"</i><br>
